@@ -1,0 +1,15 @@
+Telos Labs frontend challenge
+Observaciones de Luis Angulo
+03/11/2021
+
+Me parecio emocionante que las pruebas técnicas incluyan un ejemplo práctico de desarrollo web. Me parece excelente que la prueba técnica sea desarrollar una página, me es curiosa la falta de frameworks pero tiene sentido en el contexto de lo que me dijo Fernando sobre el minimalismo al que tratan de apegarse en los frontends que realizan.
+
+La prueba me hizo darme cuenta de que al iniciar como full stack en ambos de mis trabajos anteriores, aprendi tomando muchos atajos (bootstrap, framworks donde el rendering y la manipulación del DOM se abstrae mucho como Angular y React) lo cual es válido para un puesto de full stack pero me pone en desventaja en un puesto 100% front-end, y es un área de crecimiento para mi en la que me pienso enfocar.
+
+Me hubiese gustado tener la rapidez para incluir las aria guidelines pero me comió el tiempo estar iterando sobre el CSS para lograr un acomodo que fuese responsivo pero también que guardáse la mayor similitud posible con el handoff. Igual traté de utilizar markup semántico hasta donde me fué práctico.
+
+Creo que el primer approach que intenté con flexbox quizás hubiése sido mejor que el css grid que terminé utilizando, porque había muchas propiedades que el grid maneja automáticamente (el flow de los elementos dentro de sus padres, etc.) y que afectan a los otros elementos pero que no son intuitivos si estas acostumbrado a usar bootstrap a pesar de que ambos tienen como concepto central de layout las columnas.
+
+La configuración de ambiente para ruby fue un poco más complicada de lo que pensé por cuestiones de manjaro (ya trae un ruby, pero no el correcto) asi que intentar un par de dias hasta que corriera todo fue un poco frustrante principalmente porque tenia múltiples instrucciones de configuración (La de AUR, la de rubyonrails.org, y la de tutorialspoint), y la "buena" resultó ser una combinación de instrucciones de AUR y tutorialspoint. Pero una vez resuelto eso ya no tuve que volver a pensar en esto y lo unico que requería eran los permisos de sesion interactiva en bash para rvm.
+
+Aprendi bastante durante el ejercicio y la verdad me sirvió mucho para ver cuales eran mis áreas de oportunidad no detectadas en front-end, cosas que honestamente no veía porque estaba acostumbrado a utilizar librerias y otras herramientas que hacían ese trabajo por mí. Me hacen darme cuenta de lo mucho que tengo por aprender y de lo complejo que puede ser el trabajo en cualquier parte del stack sea back o front.
